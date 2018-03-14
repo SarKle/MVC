@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src:url(https://fonts.googleapis.com/css?family=Lato);
+}
+/* accueil.php */
+.accueil{
+  background-image: url('fond.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* header.php */
+body{
+  margin:0px;
+}
+.headerdomaines{
+  font-size: 14px;
+  background-color: #333333;
+  color: #FFFFFF;
+  grid-column-start: 4;
+  padding-top: 10px;
+}
+.headercontainer{
+  background-color: #333333;
+  background-size: contain;
+  font-family: 'Lato';
+  color: #FFFFFF;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 5% 5% 80% 10%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+.headerlogo{
+  grid-column-start: 1;
+  padding-top: 10px;
+}
+.headerprenom{
+  color:#FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  padding-top: 20px;
+}
+.headernom{
+  color:#FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+.headermenu{
+  grid-column-start: 3;
+  grid-row-start: 2;
+  text-align: center;
+  word-spacing: 100%;
+}
+.headerlinks{
+  border: 1px solid #4d4d4d;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 11px;
+  padding:6px 18px 6px 18px;
+  background-color: #4d4d4d;
+}
+.headergsm{
+  grid-column-start: 4;
+  grid-row-start: 3;
+}
+a:link{
+  text-decoration: none;
+}
+
+/*vard.php*/
+.cardcontainer{
+  padding: 40px 30px 40px 30px;
+  border: 2px solid red;
+  border-radius: 15px;
+  width: 20%;
+
+}
+.cardlogo2{
+  border:1px solid black;
+
+}

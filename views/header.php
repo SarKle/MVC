@@ -8,7 +8,6 @@
   <title>HEADER</title>
 </head>
 <body>
-
     <div class="headerdomaines">
       Antiquités • Décoration • Aménagements d'intérieur
     </div>

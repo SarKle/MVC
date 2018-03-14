@@ -7,6 +7,34 @@
   <title>STOCK</title>
 </head>
 <body>
+  <?php include "header.php";?>
+  <div class="stockpage">
+  <section class="cardcontainer">
+    <div class="cardtop">
+    <div class="cardlogo">
+      <image class="cardlogo2" src="../views/images/vcard.jpg" style="width:110px"alt="logo didier motte"/>
+    </div>
+    <div class="cardprenom">
+      DIDIER
+    </div>
+    <div class="cardnom">
+    MOTTE
+    </div>
+  </div>
+  <div class="cardbottom">
+    <div class="carddomaines">
+      Antiquités • Décoration • Aménagements d'intérieur
+    </div>
+    <div class="cardgsm">
+      <image src="images/tel.png" width="16"> +32 495/20.59.34
+    </div>
+    <div class="cardmenu">
+      <a class="cardlinks" href="presentation.php?action=presentation">PRÉSENTATION</a>
+      <a class="cardlinks" href="stock.php?action=stock">STOCK</a>
+      <a class="cardlinks" href="magasin.php?action=magasin">MAGASIN</a>
+    </div>
+  </div>
+  </section>
   <h1 class="stock"> STOCK </h1>
     <h4 class="stock2"> FOUILLER LE STOCK </h4>
       <form class="stockrecherche" action="stock.php" method="post">
@@ -56,6 +84,7 @@
           <figcaption>Grands mirois en bois dorés, sculptés</figcaption>
       </a>
     </li>
-  </div>  
+  </div>
+</div>  
 </body>
 </html>

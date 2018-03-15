@@ -4,45 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>STOCK</title>
 </head>
-<body>
-  <?php include "header.php";?>
-  <div class="stockpage">
-  <section class="cardcontainer">
-    <div class="cardtop">
-    <div class="cardlogo">
-      <image class="cardlogo2" src="../views/images/vcard.jpg" style="width:110px"alt="logo didier motte"/>
-    </div>
-    <div class="cardprenom">
-      DIDIER
-    </div>
-    <div class="cardnom">
-    MOTTE
-    </div>
+<body id="stockpage">
+  <div class="stockpart">
+    <div class="stocktitle">
+  <h1> STOCK </h1>
+    <h4> FOUILLER LE STOCK </h4>
   </div>
-  <div class="cardbottom">
-    <div class="carddomaines">
-      Antiquités • Décoration • Aménagements d'intérieur
-    </div>
-    <div class="cardgsm">
-      <image src="images/tel.png" width="16"> +32 495/20.59.34
-    </div>
-    <div class="cardmenu">
-      <a class="cardlinks" href="presentation.php?action=presentation">PRÉSENTATION</a>
-      <a class="cardlinks" href="stock.php?action=stock">STOCK</a>
-      <a class="cardlinks" href="magasin.php?action=magasin">MAGASIN</a>
-    </div>
-  </div>
-  </section>
-  <h1 class="stock"> STOCK </h1>
-    <h4 class="stock2"> FOUILLER LE STOCK </h4>
       <form class="stockrecherche" action="stock.php" method="post">
         <input type="search" name="recherche" placeholder="Exemple: table">
-        <input type="submit" name="submit" value="Recherche">
+        <input class="recherche" type="submit" name="submit" value="Recherche">
       </form>
   <div class="stocklist">
-  <ul>
+  <ul style>
     <li>
       <a href="http://localhost/MVC/views/meublevitrinechapelier.php">
         <image src="images/./meublevitrinechapelier.jpg" alt="meuble vitre chapelier" width="250" height="250"/>
@@ -85,6 +62,6 @@
       </a>
     </li>
   </div>
-</div>  
+</div>
 </body>
 </html>

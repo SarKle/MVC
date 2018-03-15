@@ -2,28 +2,11 @@
   font-family: 'Lato', sans-serif;
   src:url(https://fonts.googleapis.com/css?family=Lato);
 }
-/* accueil.php */
-.accueil{
-  background-image: url('fond.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-.stockpage{
-  text-align: center;
-}
 
-/* header.php */
+/* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+/* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
 body{
-  position: static;
   margin:0px;
-}
-.headerdomaines{
-  font-size: 14px;
-  background-color: #333333;
-  color: #FFFFFF;
-  grid-column-start: 4;
-  padding-top: 10px;
 }
 .headercontainer{
   background-color: #333333;
@@ -34,6 +17,13 @@ body{
   display: grid;
   grid-template-columns: 5% 5% 80% 10%;
   grid-template-rows: 25% 25% 25% 25%;
+}
+.headerdomaines{
+  font-size: 14px;
+  background-color: #333333;
+  color: #FFFFFF;
+  grid-column-start: 4;
+  padding-top: 10px;
 }
 .headerlogo{
   grid-column-start: 1;
@@ -74,14 +64,30 @@ body{
   grid-column-start: 4;
   grid-row-start: 3;
 }
-a:link{
-  text-decoration: none;
+
+/* HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2
+ HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2 HEADER2*/
+#header2{
+  background-color: #333333;
+  height: 30px;
 }
 
-/*vard.php*/
+/* ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL
+ ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  A */
+#accueilpage{
+  background-image: url('fond.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin-bottom: 100px;
+  display: block;
+  text-align: center;
+}
 .cardcontainer{
-  padding: 40px 30px 40px 30px;
-  border: 2px solid;
+  margin-left: 38%;
+  margin-top: 200px;
+  padding: 30px 20px 30px 20px;
+  border: 2px solid #FFFF;
   border-radius: 10px;
   width: 380px;
   height: 250px;
@@ -124,4 +130,148 @@ a:link{
 }
 .cardmenu{
   margin-top:50px;
+}
+li{
+  display: inline-block;
+  border: 10px solid #333333;
+  border-radius: 5px;
+  background-color: #333333;
+  text-decoration: none;
+  font-size: 12px;
+  font-color:#FFFF;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.stockpart{
+  background-color: #FFFF;
+  margin-top: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.cite{
+  margin-top: 150px;
+  margin-bottom: 300px;
+}
+.citation{
+  background-color: #616161;
+  font-size: 30px;
+  color: #FFFF;
+  display: inline;
+  align-items: center;
+  padding: 10px 30px 10px 30px;
+}
+.auteur{
+  background-color: #212121;
+  font-size: 14px;
+  color: #FFF;
+  display: inline;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+}
+/* STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK
+ STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  */
+#stockpage{
+  margin-bottom: 100px;
+  display: block;
+  text-align: center;
+}
+.stocktitle{
+  line-height: 90px;
+}
+h1{
+  font-size: 26px;
+}
+h4{
+  font-size: 12px;
+}
+.stockrecherche{
+  padding-bottom: 70px;
+}
+.recherche{
+  background-color: #333333;
+  color: #FFFF;
+  padding: 3px 7px 3px 7px;
+  border-radius: 5px;
+}
+li img{
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+li:hover img{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3
+ HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  HEADER3  */
+ li a:link{
+   text-decoration: none;
+   color: #FFFF;
+ }
+ li a:hover, li a:visited{
+   color:#FFFF;
+ }
+ .header3container{
+   background-color: #333333;
+   background-size: contain;
+   font-family: 'Lato';
+   color: #FFFFFF;
+   height: 100px;
+   display: grid;
+   grid-template-columns: 5% 5% 80% 10%;
+   grid-template-rows: 25% 25% 25% 25%;
+ }
+.header3domaines{
+  font-size: 14px;
+  background-color: #333333;
+  color: #FFFFFF;
+  padding-top: 10px;
+  text-align: left;
+}
+.header3logo{
+  grid-column-start: 1;
+  padding-top: 10px;
+}
+.header3prenom{
+  color:#FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  padding-top: 20px;
+}
+.header3nom{
+  color:#FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+.header3gsm{
+  grid-column-start: 4;
+  grid-row-start: 3;
+}
+
+.footerinfo{
+  background-color: #333333;
+  color: #FFFF;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 12px;
+  line-height: 25px;
+}
+.footerinfo a:link{
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  color: #FFFF;
+}
+.footerinfo a:visited{
+  color: #FFFF;
 }

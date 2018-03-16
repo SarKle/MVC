@@ -13,7 +13,7 @@
     </div>
     <section class="header3container">
       <div class="header3logo">
-        <image src="images/vcard.jpg" alt="logo didier motte"/>
+        <a href="accueil.php"> <image src="images/vcard.jpg" alt="logo didier motte"/> </a>
       </div>
       <div class="header3prenom">
         DIDIER

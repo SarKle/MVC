@@ -7,6 +7,7 @@
 /* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
 body{
   margin:0px;
+  font-family: sans-serif;
 }
 .headercontainer{
   background-color: #333333;
@@ -52,13 +53,24 @@ body{
   text-align: center;
   word-spacing: 100%;
 }
+.headermenu a:link{
+  text-decoration: none;
+}
+.headermenu a:hover{
+  background-color: #FFFF;
+  color:#424242;
+}
+.headermenu a:active{
+  background-color:  #9e9e9e;
+  color:#424242;
+}
 .headerlinks{
   border: 1px solid #4d4d4d;
   border-radius: 5px;
   color: #FFFFFF;
   font-size: 11px;
-  padding:6px 18px 6px 18px;
-  background-color: #4d4d4d;
+  padding:12px 6px 12px 6px;
+  background-color: #333333;
 }
 .headergsm{
   grid-column-start: 4;
@@ -79,9 +91,10 @@ body{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   display: block;
   text-align: center;
+  font-family: sans-serif;
 }
 .cardcontainer{
   margin-left: 38%;
@@ -95,7 +108,7 @@ body{
 }
 .cardtop{
   display:grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 1% 99%;
   height: 120px;
   font-size: 32px;
   font-weight: bold;
@@ -128,10 +141,18 @@ body{
   background-color: #000000;
   color:#FFFF;
 }
+.cardmenu a:link{
+  text-decoration: none;
+}
+.cardmenu a:hover{
+  background-color: #FFFF;
+  color: black;
+  text-decoration: none;
+}
 .cardmenu{
   margin-top:50px;
 }
-li{
+.stocklist li{
   display: inline-block;
   border: 10px solid #333333;
   border-radius: 5px;
@@ -157,7 +178,7 @@ li{
   background-color: #616161;
   font-size: 30px;
   color: #FFFF;
-  display: inline;
+  display: inline-block;
   align-items: center;
   padding: 10px 30px 10px 30px;
 }
@@ -165,14 +186,15 @@ li{
   background-color: #212121;
   font-size: 14px;
   color: #FFF;
-  display: inline;
+  display: inline-block;
   align-items: center;
+  margin-top: 20px;
   padding: 5px 10px 5px 10px;
 }
 /* STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK
  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  STOCK  */
 #stockpage{
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   display: block;
   text-align: center;
 }
@@ -194,13 +216,13 @@ h4{
   padding: 3px 7px 3px 7px;
   border-radius: 5px;
 }
-li img{
+.stocklist li img{
   max-width: 100%;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-li:hover img{
+.stocklist li:hover img{
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -214,6 +236,9 @@ li:hover img{
  }
  li a:hover, li a:visited{
    color:#FFFF;
+ }
+ li a:active{
+   color: yellow;
  }
  .header3container{
    background-color: #333333;
@@ -266,6 +291,8 @@ li:hover img{
   padding-bottom: 50px;
   font-size: 12px;
   line-height: 25px;
+  height: 100px;
+  margin-bottom: 0px;
 }
 .footerinfo a:link{
   text-decoration: underline;
@@ -274,4 +301,141 @@ li:hover img{
 }
 .footerinfo a:visited{
   color: #FFFF;
+}
+
+/* PRESENTATION  PRESENTATION  PRESENTATION  PRESENTATION  PRESENTATION  PRESENTATION  PRESENTATION
+ PRESENTATION  PRESENTATION  PRESENTATION  PRESENTATION  PRESENTATION  PRESENTATION  PRESENTATION  PRESENTATION */
+ #presentationpage{
+  margin-top: 80px;
+  font-size: 18px;
+  line-height: 25px;
+}
+.prestitre{
+  text-align: center;
+}
+.presphoto{
+  text-align: center;
+  margin-top: 40px;
+}
+h3{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.prespart1, .prespart3, .prespart4{
+  margin-left: 35%;
+  width: 600px;
+  height: 300px;
+  padding-bottom: 25px;
+}
+.prespart2{
+  margin-left:40%;
+  margin-top: -40px;
+  width: 500px;
+  height: 300px;
+}
+.prespart3, .prespart4{
+  margin-top: -110px;
+}
+.presliste{
+  line-height: 50px;
+}
+.presref{
+  border: 1px solid #333333;
+  border-radius: 5px;
+  padding:8px 6px 8px 6px;
+  background-color: #333333;
+  font-size: 12px;
+  font-weight: bold;
+}
+.presref li a:active{
+  background-color: #FFFFFF;
+}
+
+/* CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT
+ CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  */
+#pagecontact{
+  margin-top: 80px;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 35%;
+  width: 600px;
+}
+#pagecontact a:link{
+  text-decoration: none;
+}
+.contacttitle{
+  margin-top: 80px;
+  text-align: center;
+}
+.contactnom{
+  padding-top: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.contactemail, .contactfacebook{
+  font-size: 14px;
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 3px 10px 3px 10px;
+  border-radius: 5px;
+}
+.contactinfo{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+.contactitineraire{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 20px;
+}
+
+/* MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES
+ MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  */
+#pagemeuble{
+  margin-top: 120px;
+  margin-left: 30px;
+  background-color: #eeeeee;
+}
+.meuble{
+  display: grid;
+  grid-template-columns: 1100px 700px;
+}
+.meubleimage1{
+  grid-column-start: 1;
+  box-sizing: border-box;
+  border:1px solid #e0e0e0 ;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  width: 1100px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.meubledescr{
+  grid-column-start: 2;
+  font-size: 14px;
+  width: 600px;
+  padding-left: 20px;
+  line-height: 20px;
+}
+.meubletitle{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 40px;
+}
+h6{
+  font-weight: bold;
+  padding-top: 15px;
+}
+.meubleslides li img {
+  padding-top:30px;
+  padding-right: 30px;
+  width: 150px;
+  height: 150px;
+  float: left;
+  width:
 }

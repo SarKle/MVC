@@ -9,6 +9,7 @@
   <title>STOCK</title>
 </head>
 <body id="stockpage">
+  <?php include"header3.php"; ?>
   <div class="stockpart">
     <div class="stocktitle">
   <h1> LE STOCK </h1>
@@ -63,5 +64,6 @@
     </li>
   </div>
 </div>
+<?php include "footer.php"; ?>
 </body>
 </html>

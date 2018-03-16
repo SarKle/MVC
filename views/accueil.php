@@ -31,7 +31,7 @@
     </div>
     <div class="cardmenu">
       <a class="cardlinks" href="presentation.php?action=presentation">PRÉSENTATION</a>
-      <a class="cardlinks" href="stock.php?action=stock">STOCK</a>
+      <a class="cardlinks" href="stock2.php?action=stock">STOCK</a>
       <a class="cardlinks" href="magasin.php?action=magasin">MAGASIN</a>
     </div>
   </div>
@@ -42,5 +42,7 @@
   <p><div class="auteur"> – Antoine Houdar de la Motte</div></p>
 </div>
 
+  <?php include "footer.php"; ?>
 </body>
+
 </html>

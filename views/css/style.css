@@ -91,7 +91,6 @@ body{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
-  /* margin-bottom: 100px; */
   display: block;
   text-align: center;
   font-family: sans-serif;
@@ -395,7 +394,7 @@ h3{
 /* MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES
  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  MEUBLES  */
 #pagemeuble{
-  margin-top: 120px;
+
   margin-left: 30px;
   background-color: #eeeeee;
 }
@@ -411,10 +410,11 @@ h3{
   background-color: #FFFFFF;
   width: 1100px;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 .meubledescr{
+  margin-top: 20px;
   grid-column-start: 2;
   font-size: 14px;
   width: 600px;

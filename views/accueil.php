@@ -13,7 +13,7 @@
   <div class="cardcontainer">
     <div class="cardtop">
     <div class="cardlogo">
-      <image class="cardlogo2" src="../views/images/vcard.jpg" style="width:110px"alt="logo didier motte"/>
+      <image class="cardlogo2" src="images/vcard.jpg" style="width:110px"alt="logo didier motte"/>
     </div>
     <div class="cardprenom">
       DIDIER

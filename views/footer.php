@@ -13,7 +13,7 @@
   <p> © 2018 Didier Motte +32 495 20 59 34 - <a href="mailto:sarahklewiec@gmail.com" target="_blank">dmotte@skynet.be</a> - Plan d'accès</p>
   <p> Décorateur, Antiquités, Aménagement d'intérieurs, Belgique </p>
   <p> Restez à jour via: <a href="https://www.facebook.com/antiquites.decoration" target="_blank">Facebook</a> <a href="https://www.instagram.com/DidierMotte/" target="_blank"> Instagram</a> </p>
-  <p> Copie par Sarah Klewiec </p>
+  <p> Reproduction par <a href="https://github.com/sarahklewiec"> Sarah Klewiec </a> </p>
 <div>
 </body>
 </html>

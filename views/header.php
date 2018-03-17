@@ -23,7 +23,7 @@
       </div>
       <div class="headermenu">
         <a class="headerlinks" href="presentation.php?action=presentation">PRÉSENTATION</a>
-        <a class="headerlinks" href="stock.php?action=stock">STOCK</a>
+        <a class="headerlinks" href="stock2.php?action=stock">STOCK</a>
         <a class="headerlinks" href="magasin.php?action=magasin">MAGASIN</a>
       </div>
       <div class="headergsm">

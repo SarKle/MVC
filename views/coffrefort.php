@@ -8,13 +8,14 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Coffre fort</title>
 </head>
-<body id="pagemeuble">
-  <div class="meuble">
-    <div class='meubleimage1'>
-      <image src="./images/coffrefort.jpg"/>
-    </div>
-    <div class="meubledescr">
-      <div class="meubletitle">COFFRE FORT</div>
+<?php include 'header.php'; ?>
+  <body id="pagemeuble">
+    <div class="meuble">
+      <div class='meubleimage1'>
+        <image src="./images/coffrefort.jpg"/>
+      </div>
+      <div class="meubledescr">
+        <div class="meubletitle">COFFRE FORT</div>
           Ancien coffre-fort de marque Bailly à Bruxelles. Il est surmonté d’un marbre gris et l’intérieur est composé d’un second petit coffre .
           Il possède son code et ses clés .
         <div class="meubleinfo">
@@ -35,5 +36,6 @@
           </div>
         </div>
       </div>
+  <?php include 'footer.php';?>
 </body>
 </html>

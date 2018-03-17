@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Comptoire caisse en marbre</title>
 </head>
+<?php include 'header.php' ?>
 <body id="pagemeuble">
   <div class='meuble'>
     <div class="meubleimage1">
@@ -25,7 +26,6 @@
           <div class="meubleslides">
             <ul>
               <li> <image src="./images/comptoircaissemarbre.jpg" alt"comptoircaissemarbre"/> </li>
-              <li> <image src="./images/comptoircaissemarbre1.jpg" alt"comptoircaissemarbre"/> </li>
               <li> <image src="./images/comptoircaissemarbre2.jpg" alt"comptoircaissemarbre"/> </li>
               <li> <image src="./images/comptoircaissemarbre3.jpg" alt"comptoircaissemarbre"/> </li>
               <li> <image src="./images/comptoircaissemarbre4.jpg" alt"comptoircaissemarbre"/> </li>
@@ -37,4 +37,5 @@
         </div>
       </div>
 </body>
+<?php include "footer.php"?>
 </html>

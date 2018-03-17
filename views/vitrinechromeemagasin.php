@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Vitrine chroméee de magasin</title>
 </head>
+<?php include 'header.php' ?>
 <body id="pagemeuble">
   <div class="meuble">
     <div class="meubleimage1">
@@ -34,4 +35,5 @@
       </div>
     </div>
 </body>
+<?php include "footer.php" ?>
 </html>

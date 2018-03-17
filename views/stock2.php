@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="css/style.css">
   <title>STOCK</title>
 </head>
+<?php include 'header.php'; ?>
 <body id="stockpage">
-  <?php include"header3.php"; ?>
   <div class="stockpart">
     <div class="stocktitle">
   <h1> LE STOCK </h1>
@@ -22,48 +22,42 @@
   <div class="stocklist">
   <ul>
     <li>
-      <a href="http://localhost/MVC/views/meublevitrinechapelier.php">
-        <image src="images/./meublevitrinechapelier.jpg" alt="meuble vitre chapelier" width="250" height="250"/>
+      <a href="meublevitrinechapelier.php">
+        <image src="images/meublevitrinechapelier.jpg" alt="meuble vitre chapelier" width="250" height="250"/>
           <figcaption>Meuble-vitrine de chapelier</figcaption>
       </a>
     <li>
-      <a href="http://localhost/MVC/views/vitrinechromeemagasin.php" >
-        <image src="images/./vitrinechromeedemagasin.jpg" alt="vitrine chromee de magasin" width="250" height="250"/>
+      <a href="vitrinechromeemagasin.php" >
+        <image src="images/vitrinechromeedemagasin.jpg" alt="vitrine chromee de magasin" width="250" height="250"/>
           <figcaption>Vitrine chromée de magasin</figcaption>
       </a>
     </li>
     <li>
-      <a href="http://localhost/MVC/views/coffrefort.php" >
-        <image src="images/./coffrefort.jpg" alt="coffre fort" width="250" height="250"/>
+      <a href="coffrefort.php" >
+        <image src="images/coffrefort.jpg" alt="coffre fort" width="250" height="250"/>
           <figcaption>Coffre fort</figcaption>
       </a>
     </li>
     <li>
-      <a href="http://localhost/MVC/views/pigeonnier.php" >
-        <image src="images/./pigeonnier.jpg" alt="pigeonnier" width="250" height="250"/>
+      <a href="pigeonnier.php" >
+        <image src="images/pigeonnier.jpg" alt="pigeonnier" width="250" height="250"/>
           <figcaption>Pigeonnier</figcaption>
       </a>
     </li>
     <li>
-      <a href="http://localhost/MVC/views/comptoircaissemarbre.php" >
-        <image src="images/./comptoircaissemarbre.jpg" alt="comptoir caisse marbre" width="250" height="250"/>
+      <a href="comptoircaissemarbre.php" >
+        <image src="images/comptoircaissemarbre.jpg" alt="comptoir caisse marbre" width="250" height="250"/>
           <figcaption>Comptoir caisse en marbre</figcaption>
       </a>
     </li>
     <li>
-      <a href="http://localhost/MVC/views/bibliotheque.php" >
-        <image src="images/./bibliotheque.jpg" alt="bibliotheque" width="250" height="250"/>
-          <figcaption>Bibliothèque en chêne brut</figcaption>
-      </a>
-    </li>
-    <li>
-      <a href="http://localhost/MVC/views/miroirs.php" >
-        <image src="images/./miroirs.jpg" alt="bibliotheque" width="250" height="250"/>
+      <a href="miroirs.php" >
+        <image src="images/miroirs.jpg" alt="bibliotheque" width="250" height="250"/>
           <figcaption>Grands mirois en bois dorés, sculptés</figcaption>
       </a>
     </li>
   </div>
 </div>
-<?php include "footer.php"; ?>
 </body>
+<?php include "footer.php" ?>
 </html>

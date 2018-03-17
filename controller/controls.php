@@ -1,33 +1,31 @@
 <?php
 
-if($page=='acceuil.php'){
-  require_once('views/header.php');
-  require_once('views/accueil.php');
-  require_once('views/footer.php');
+if($page=='accueil'){
+   require "views/accueil.php";
 }
 
-elseif ($page=='stock.php'){
-  require_once('views/header3.php');
-  require_once('views/stock2.html');
-  require_once('views/footer.html');
+elseif ($page=='stock'){
+  // require_once('header3.php');
+  require_once('stock2.php');
+  // require_once('footer.php');
 }
 
-elseif ($page=='presentation.php'){
-  require_once('views/header.php');
-  require_once('views/presentation.php');
-  require_once('views/footer.phpinfo');
+elseif ($page=='presentation'){
+  require_once('header.php');
+  require_once('presentation.php');
+  require_once('footer.phpinfo');
 }
 
-elseif ($page=='magasin.php'){
-  require_once('views/header.php');
-  require_once('views/magasin.php');
-  require_once('views/footer.php');
+elseif ($page=='magasin'){
+  require_once('header.php');
+  require_once('magasin.php');
+  require_once('footer.php');
 }
 
 else{
-  require_once('views/header.php');
-  require_once('views/accueil.php');
-  require_once('views/footer.php');
+  require_once('header.php');
+  require_once('accueil.php');
+  require_once('footer.php');
 }
 
 ?>

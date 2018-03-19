@@ -43,18 +43,6 @@
           <figcaption>Pigeonnier</figcaption>
       </a>
     </li>
-    <li>
-      <a href="comptoircaissemarbre.php" >
-        <image src="images/comptoircaissemarbre.jpg" alt="comptoir caisse marbre" width="250" height="250"/>
-          <figcaption>Comptoir caisse en marbre</figcaption>
-      </a>
-    </li>
-    <li>
-      <a href="miroirs.php" >
-        <image src="images/miroirs.jpg" alt="bibliotheque" width="250" height="250"/>
-          <figcaption>Grands mirois en bois dorés, sculptés</figcaption>
-      </a>
-    </li>
   </div>
 </div>
 </body>

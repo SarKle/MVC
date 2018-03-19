@@ -1,7 +1,7 @@
 <?php
 
 if($page=='accueil'){
-   require "views/accueil.php";
+   require "index.php";
 }
 
 elseif ($page=='stock'){
@@ -13,7 +13,7 @@ elseif ($page=='stock'){
 elseif ($page=='presentation'){
   require_once('header.php');
   require_once('presentation.php');
-  require_once('footer.phpinfo');
+  require_once('footer.php');
 }
 
 elseif ($page=='magasin'){
